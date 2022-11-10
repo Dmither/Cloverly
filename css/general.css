@@ -1,0 +1,32 @@
+body{
+  font-family: 'Roboto';
+}
+.btn {
+}
+.container {
+  width: 100%;
+  padding: 0 10px;
+}
+.freeze{
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .container{
+    padding: 0 50px;
+  }
+}
+@media (min-width: 992px) {
+  .container{
+    padding: 0 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    padding: 0 125px;
+  }
+}
+@media (min-width: 1400px) {
+  .container{
+    padding: 0 155px;
+  }
+}
