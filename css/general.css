@@ -4,6 +4,7 @@ body{
 .btn {
 }
 .container {
+  margin: 0 auto;
   width: 100%;
   padding: 0 10px;
 }
@@ -17,16 +18,19 @@ body{
 }
 @media (min-width: 992px) {
   .container{
+    max-width: 992px;
     padding: 0 80px;
   }
 }
 @media (min-width: 1200px) {
   .container{
+    max-width: 1200px;
     padding: 0 125px;
   }
 }
 @media (min-width: 1400px) {
   .container{
+    max-width: 1400px;
     padding: 0 155px;
   }
 }
