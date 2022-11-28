@@ -1,38 +1,114 @@
 .developers {
-}
-.container {
+  background-color: #0a2540;
 }
 .developers__container {
+  display: grid;
 }
 .developers__main {
+
 }
 .developers__subtitle {
+  margin-bottom: 9px;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #00ca90;
 }
 .developers__title {
+  margin-bottom: 12px;
+  font-size: 42px;
+  line-height: 1.33;
+  color: #fff;
 }
 .developers__text {
+  margin-bottom: 23px;
+  font-size: 18px;
+  line-height: 1.33;
+  color: rgba(255, 255, 255, 0.65);
 }
 .developers__buttons {
+  display: flex;
+  justify-content: stretch;
+  gap: 24px;
+}
+.developers__buttons button{
+  width: 50%;
+  border-radius: 50px;
+  padding: 15px 0 19px;
+  font-size: 15px;
+  line-height: 1.07;
 }
 .developers__get {
+  background-color: #00ca90;
+  color: #fff;
+}
+.developers__get:hover{
+  box-shadow: 0 0 5px #00ca90;
 }
 .developers__docs {
+  background-color: #fff;
+  color: #013a51;
+}
+.developers__docs:hover{
+  box-shadow: 0 0 5px #fff;
 }
 .developers__frame {
+  justify-self: flex-end;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
 }
 .developers__frame-top {
+  border-radius: 10px 10px 0 0;
+  background-color: #1D3954;
+  padding: 100px 100px;
+  flex: 1 1 auto;
+  overflow:hidden;
+  position: relative;
+}
+.developers__code{
+  position: absolute;
+  top: 20px;
+  left: 52px;
+  overflow: hidden;
+}
+.developers__code p{
+  width: max-content;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #fff;
+}
+.developers__code p span{
+  color: #00CA90;
 }
 .developers__frame-bot {
+  padding: 15px 20px;
+  background-color: #142F4A;
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
 }
-.developer__curl {
+.developers__frame-bot button{
+  padding: 5px 15px 9px ;
+  border-radius: 100px;
+  color: #fff;
 }
-.developer__ruby {
+.developers__active{
+  background-color: #33506b ;
 }
-.developer__node {
+@media (max-width: 991px) {
+  .developers__main{margin-bottom: 30px;}
+  .developers__frame{
+    width: 100%;
+  }
 }
-.developer__go {
+@media (min-width: 992px) {
+  .developers__container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .developers__frame {
+    margin-left: 40px;
+  }
 }
-.developer__python {
-}
-.developer__php {
+@media (min-width: 1200px) {
+  
 }

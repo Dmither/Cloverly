@@ -124,7 +124,7 @@
         <button class="usecases__btn">Contact Us</button>
       </div>
     </section>
-    <section class="developers">
+    <section class="developers section">
       <div class="container developers__container">
         <div class="developers__main">
           <p class="developers__subtitle">For Developers, By Developers</p>
@@ -137,15 +137,17 @@
         </div>
         <div class="developers__frame">
           <div class="developers__frame-top">
-            <p>curl https://api.cloverly.com/2019-03-beta/purchases/vehicle \</p>
-            <p>-X POST \</p>
-            <p>-d '{ <span>"distance"</span> :{ <span>"value"</span> :55, <span>"units"</span> : <span>"km"</span> , <span>"fuel_efficiency"</span></p>
-            <p>-H <span>"Content-type: application/json"</span> \</p>
-            <p>-H <span>"Authorization: Bearer public_key:47800ea0ee541b4c"</span></p>
+            <div class="developers__code">
+              <p>curl https://api.cloverly.com/2019-03-beta/purchases/vehicle \</p>
+              <p>-X POST \</p>
+              <p>-d '{ <span>"distance"</span> :{ <span>"value"</span> :55, <span>"units"</span> : <span>"km"</span> , <span>"fuel_efficiency"</span></p>
+              <p>-H <span>"Content-type: application/json"</span> \</p>
+              <p>-H <span>"Authorization: Bearer public_key:47800ea0ee541b4c"</span></p>
+            </div>
           </div>
           <ul class="developers__frame-bot">
             <li>
-              <button class="developer__curl">Curl</button>
+              <button class="developer__curl developers__active">Curl</button>
             </li>
             <li>
               <button class="developer__ruby">Ruby</button>
