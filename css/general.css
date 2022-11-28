@@ -11,15 +11,24 @@ body{
 .freeze{
   overflow: hidden;
 }
+.section{
+  padding: 40px 0;
+}
 @media (min-width: 768px) {
   .container{
     padding: 0 50px;
+  }
+  .section {
+    padding: 80px 0;
   }
 }
 @media (min-width: 992px) {
   .container{
     max-width: 992px;
     padding: 0 80px;
+  }
+  .section {
+    padding: 150px 0;
   }
 }
 @media (min-width: 1200px) {
